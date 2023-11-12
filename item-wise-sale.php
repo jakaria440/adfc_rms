@@ -36,17 +36,17 @@ if (isset($_POST['submit'])) {
 
 ?>
 
-<h3 class="text-center">দৈনিক খরচের হিসাব</h3>
+<h3 class="text-center">দৈনিক মেন্যুভিত্তিক বিক্রয়ের হিসাব</h3>
 <div class="container">
 
   <div id="toast" style="display: none; position: fixed; bottom: 10px; left: 10px; background-color: #333; color: #fff; padding: 10px; border-radius: 5px;">
     <!-- Toast message will appear here -->
   </div>
   <form method="POST" action="" class="row justify-content-center">
-    <label for="datepicker">Select a date:</label>
+  <label for="datepicker">Select a date:</label>
     <input type="date" name="report_date" class="col-6" value="<?php echo date('Y-m-d'); ?>" style="padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
     <div style="padding:10px;"></div>
-    <table class="table table-bordered border-primary" style="table-layout: fixed; width: 580px">
+    <table class="table table-bordered border-primary" style="table-layout: fixed; width: 580px;">
       <colgroup>
         <col style="width: 49px">
         <col style="width: 130px">
